@@ -5,3 +5,4 @@ from .models import Inventory
 class InventoryAdmin(admin.ModelAdmin):
     list_display = ("id", "name", "price", "quantity")
     search_fields = ("name",)
+#this is admin.py file for coffee_app
