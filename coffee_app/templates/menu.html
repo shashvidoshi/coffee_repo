@@ -179,8 +179,7 @@
                     <div class="coffee-title">{{ coffee.name }}</div>
                     <div class="coffee-price">₹{{ coffee.price|floatformat:2 }}</div>
                     <div class="coffee-desc">Quantity: {{ coffee.quantity }}</div>
-                    <button class="add-cart-btn" type="button" onclick="addToCart(this)">Add to Cart</button>
-                    <div class="cart-message">Added!</div>
+                    <!-- Add to Cart button removed -->
                 </div>
                 {% endfor %}
             {% else %}
