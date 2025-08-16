@@ -1,0 +1,16 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome To The Coffee Beans</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'index_style.css' %}">
+</head>
+<body>
+    <h1>Welcome To The Coffee Beans</h1>
+    <form action="/menu/" method="get">
+        <button type="submit">Go to Menu</button>
+    </form>
+</body>
+</html>
